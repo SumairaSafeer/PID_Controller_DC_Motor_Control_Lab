@@ -25,9 +25,10 @@ This open-ended lab focuses on the design, simulation, and analysis of a **Propo
 ## 2. System Modeling
 
 ### Electrical Equation
-\[
+
+$$
 V(t) = R_a I_a(t) + L_a \frac{dI_a(t)}{dt} + E_b(t)
-\]
+$$
 
 Where:  
 - \( V(t) \) = Applied armature voltage  
@@ -37,9 +38,10 @@ Where:
 - \( E_b(t) = K_b \omega(t) \) = Back EMF  
 
 ### Mechanical Equation
-\[
+
+$$
 K_t I_a(t) = J \frac{d\omega(t)}{dt} + B \omega(t)
-\]
+$$
 
 Where:  
 - \( K_t \) = Torque constant  
@@ -48,11 +50,13 @@ Where:
 - \( \omega(t) \) = Angular velocity  
 
 ### Transfer Function (Simplified – neglecting \( L_a \))
-\[
+
+$$
 G(s) = \frac{\omega(s)}{V(s)} = \frac{K_t}{R_a (Js + B) + K_t K_b}
-\]
+$$
 
 ### Assumed Motor Parameters
+
 | Parameter | Value                        |
 |-----------|------------------------------|
 | \( R_a \) | \( 1 \, \Omega \)            |
