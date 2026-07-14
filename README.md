@@ -57,13 +57,13 @@ $$
 
 ### Assumed Motor Parameters
 
-| Parameter | Value                        |
-|-----------|------------------------------|
-| \( R_a \) | \( 1 \, \Omega \)            |
-| \( J \)   | \( 0.01 \, kg\cdot m^2 \)    |
-| \( B \)   | \( 0.1 \, N\cdot m\cdot s \) |
-| \( K_t \) | \( 0.05 \, N\cdot m/A \)     |
-| \( K_b \) | \( 0.05 \, V\cdot s/rad \)   |
+| Parameter | Value                  |
+|-----------|------------------------|
+| Ra        | 1 Ω                    |
+| J         | 0.01 kg·m²             |
+| B         | 0.1 N·m·s              |
+| Kt        | 0.05 N·m/A             |
+| Kb        | 0.05 V·s/rad           |
 
 ---
 
