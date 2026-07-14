@@ -23,26 +23,60 @@ This open-ended lab focuses on the design, simulation, and analysis of a **Propo
 
 ## 2. System Modeling
 ### Electrical Equation
-\[
-V(t) = R_a I_a(t) + L_a \frac{dI_a(t)}{dt} + E_b(t)
-\]
+2. System Modeling
+Electrical Equation
+$$V(t) = R_a I_a(t) + L_a \frac{dI_a(t)}{dt} + E_b(t)$$
+Where:
 
-### Mechanical Equation
-\[
-T(t) = K_t I_a(t) = J \frac{d\omega(t)}{dt} + B \omega(t)
-\]
+$  V(t)  $ = Applied armature voltage
+$  I_a(t)  $ = Armature current
+$  R_a  $ = Armature resistance
+$  L_a  $ = Armature inductance
+$  E_b(t) = K_b \omega(t)  $ = Back EMF
 
-### Transfer Function (Simplified)
-\[
-G(s) = \frac{\omega(s)}{V(s)} = \frac{K_t}{(J s + B)(R_a) + K_t K_b}
-\]
+Mechanical Equation
+$$K_t I_a(t) = J \frac{d\omega(t)}{dt} + B \omega(t)$$
+Where:
 
-**Assumed Parameters:**
-- \( R_a = 1 \, \Omega \)
-- \( J = 0.01 \, kg \cdot m^2 \)
-- \( B = 0.1 \, N \cdot m \cdot s \)
-- \( K_t = 0.05 \, N \cdot m / A \)
-- \( K_b = 0.05 \, V \cdot s / rad \)
+$  K_t  $ = Torque constant
+$  J  $ = Moment of inertia
+$  B  $ = Viscous friction coefficient
+$  \omega(t)  $ = Angular velocity
+
+Transfer Function (Simplified – neglecting $  L_a  $)
+$$G(s) = \frac{\omega(s)}{V(s)} = \frac{K_t}{R_a (Js + B) + K_t K_b}$$
+
+Assumed Motor Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ParameterValue$  R_a  $$  1 \, \Omega  $$  J  $$  0.01 \, kg\cdot m^2  $$  B  $$  0.1 \, N\cdot m\cdot s  $$  K_t  $$  0.05 \, N\cdot m/A  $$  K_b  $$  0.05 \, V\cdot s/rad  $
 
 ---
 
