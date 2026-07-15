@@ -129,11 +129,14 @@ A PID controller was successfully designed and implemented for a DC motor system
 
 ---
 
-## 9. Prepared By
+
+## 👩‍🎓 Author
+
 **Sumaira Safeer**  
-FA22-BCE-019  
-BS Computer Engineering  
+Computer Engineer 
 COMSATS University Islamabad, Attock Campus  
+[LinkedIn](https://www.linkedin.com/in/sumaira-safeer-948804418/)
+  
 
 ---
 
